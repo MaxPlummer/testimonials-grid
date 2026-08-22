@@ -1,6 +1,4 @@
-/* ------------*/
-/* Variables   */
-/* ------------*/
+/* Variables */
 :root {
   /* Colors */
   --purple-50: hsl(260, 100%, 95%);
@@ -17,6 +15,7 @@
   --font-base: "Barlow Semi Condensed", sans-serif;
   --font-base-size: 13px;
 }
+/* Reset */
 *,
 *::before,
 *::after {
@@ -65,7 +64,7 @@ img {
 }
 .bg-white {
   background-color: var(--white);
-  color: var(--black);
+  color: var(--grey-500);
 }
 .bg-blue {
   background-color: var(--dark-blue);
@@ -73,11 +72,11 @@ img {
 }
 /* Avatar images */
 .avatar-size {
-  width: 46px;
-  height: 46px;
+  width: 36px;
+  height: auto;
 }
 .avatar-border {
-  border: 3px solid;
+  border: 2px solid;
 }
 .border-purple-300 {
   border-color: var(--purple-300);
@@ -91,12 +90,27 @@ img {
 .border-grey-200 {
   border-color: var(--grey-200);
 }
+/* Reviewer info */
 .reviewer {
   display: block;
 }
 .reviewer h3 {
-  font-size: 18px;
+  font-size: 1rem;
 }
 .reviewer h4 {
-  font-size: 15px;
+  font-size: 0.85rem;
+}
+.testimonial-heading {
+  font-size: 1.5rem;
+}
+@media (max-width: 991px) {
+  #main {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .testimonial-heading {
+    font-size: 1.75rem;
+  }
 }
