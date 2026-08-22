@@ -33,10 +33,12 @@ figure,
 picture {
   margin: 0;
 }
+html {
+  font-size: var(--font-base-size);
+}
 body {
   background-color: var(--grey-100);
   font-family: var(--font-base);
-  font-size: var(--font-base-size);
   font-weight: 500;
   line-height: 1.5;
   min-height: 100vh;
@@ -52,4 +54,21 @@ img {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+/* Backgrounds and text colors */
+.bg-purple {
+  background-color: var(--purple-500);
+  color: var(--white);
+}
+.bg-grey {
+  background-color: var(--grey-500);
+  color: var(--white);
+}
+.bg-white {
+  background-color: var(--white);
+  color: var(--black);
+}
+.bg-blue {
+  background-color: var(--dark-blue);
+  color: var(--white);
 }
