@@ -44,7 +44,6 @@ body {
   min-height: 100vh;
 }
 img {
-  max-width: 100%;
   display: block;
 }
 /* Attribution */
@@ -71,4 +70,33 @@ img {
 .bg-blue {
   background-color: var(--dark-blue);
   color: var(--white);
+}
+/* Avatar images */
+.avatar-size {
+  width: 46px;
+  height: 46px;
+}
+.avatar-border {
+  border: 3px solid;
+}
+.border-purple-300 {
+  border-color: var(--purple-300);
+}
+.border-purple-500 {
+  border-color: var(--purple-500);
+}
+.border-grey-400 {
+  border-color: var(--grey-400);
+}
+.border-grey-200 {
+  border-color: var(--grey-200);
+}
+.reviewer {
+  display: block;
+}
+.reviewer h3 {
+  font-size: 18px;
+}
+.reviewer h4 {
+  font-size: 15px;
 }
