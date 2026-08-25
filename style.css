@@ -47,7 +47,6 @@ img {
 }
 /* Attribution */
 .attribution {
-  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
@@ -102,6 +101,7 @@ img {
 }
 .testimonial-heading {
   font-size: 1.5rem;
+  font-weight: 600;
 }
 @media (max-width: 991px) {
   #main {
@@ -112,5 +112,19 @@ img {
 @media (min-width: 992px) {
   .testimonial-heading {
     font-size: 1.75rem;
+  }
+}
+@media (min-width: 1400px) {
+  .reviewer h3 {
+    font-size: 1.05rem;
+  }
+  .reviewer h4 {
+    font-size: 0.9rem;
+  }
+  .testimonial-heading {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.125rem;
   }
 }

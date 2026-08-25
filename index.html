@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Testimonials Page</title>
   </head>
-  <body>
-    <main id="main" class="container py-5">
+  <body class="d-flex flex-column justify-content-center">
+    <main id="main" class="container pt-5">
       <!-- Row to hold all boxes -->
       <div class="row">
         <!-- Column to hold 4 leftmost boxes -->
@@ -32,18 +32,19 @@
           <div class="row">
             <!-- Column for Daniel -->
             <div class="col-lg-8 p-3">
-              <div class="p-5 h-100 rounded-3 shadow-lg bg-purple">
-                <div class="d-flex align-items-center gap-4 mb-4">
+              <!-- Wrapper to show spacing between boxes -->
+              <article class="p-5 h-100 rounded-3 shadow-lg bg-purple">
+                <header class="d-flex align-items-center gap-4 mb-4">
                   <img
                     src="./images/image-daniel.jpg"
                     alt="Daniel Clifford"
                     class="avatar-size avatar-border border-purple-300 rounded-circle"
                   />
-                  <div class="reviewer">
+                  <span class="reviewer">
                     <h3 class="mb-1">Daniel Clifford</h3>
                     <h4>Verified Graduate</h4>
-                  </div>
-                </div>
+                  </span>
+                </header>
                 <h2 class="testimonial-heading mb-4">
                   I received a job offer mid-course, and the subjects I learned
                   were current, if not more so, in the company I joined. I
@@ -59,23 +60,23 @@
                   course, I’ve successfully switched careers, working as a
                   Software Engineer at a VR startup.&nbsp;”
                 </p>
-              </div>
+              </article>
             </div>
 
             <!-- Column for Jonathan -->
             <div class="col-lg-4 p-3">
-              <div class="p-5 h-100 rounded-3 shadow-lg bg-grey">
-                <div class="d-flex align-items-center gap-4 mb-4">
+              <article class="p-5 h-100 rounded-3 shadow-lg bg-grey">
+                <header class="d-flex align-items-center gap-4 mb-4">
                   <img
                     src="./images/image-jonathan.jpg"
                     alt="Jonathan Walters"
                     class="avatar-size avatar-border border-grey-300 rounded-circle"
                   />
-                  <div class="reviewer">
+                  <span class="reviewer">
                     <h3 class="mb-1">Jonathan Walters</h3>
                     <h4>Verified Graduate</h4>
-                  </div>
-                </div>
+                  </span>
+                </header>
                 <h2 class="testimonial-heading mb-4">
                   The team was very supportive and kept me motivated
                 </h2>
@@ -85,7 +86,7 @@
                   This was one of the best investments I’ve made in
                   myself.&nbsp;”
                 </p>
-              </div>
+              </article>
             </div>
           </div>
 
@@ -93,18 +94,18 @@
           <div class="row">
             <!-- Column for Jeanette -->
             <div class="col-lg-4 p-3">
-              <div class="p-5 h-100 rounded-3 shadow-lg bg-white">
-                <div class="d-flex align-items-center gap-4 mb-4">
+              <article class="p-5 h-100 rounded-3 shadow-lg bg-white">
+                <header class="d-flex align-items-center gap-4 mb-4">
                   <img
                     src="./images/image-jeanette.jpg"
                     alt="Jeanette Harmon"
                     class="avatar-size avatar-border border-grey-200 rounded-circle"
                   />
-                  <div class="reviewer">
+                  <span class="reviewer">
                     <h3 class="mb-1">Jeanette Harmon</h3>
                     <h4>Verified Graduate</h4>
-                  </div>
-                </div>
+                  </span>
+                </header>
                 <h2 class="testimonial-heading mb-4">
                   An overall wonderful and rewarding experience
                 </h2>
@@ -113,23 +114,23 @@
                   job I really enjoy, and make a good living while doing
                   something I love.&nbsp;”
                 </p>
-              </div>
+              </article>
             </div>
 
             <!-- Column for Patrick -->
             <div class="col-lg-8 p-3">
-              <div class="p-5 h-100 rounded-3 shadow-lg bg-blue">
-                <div class="d-flex align-items-center gap-4 mb-4">
+              <article class="p-5 h-100 rounded-3 shadow-lg bg-blue">
+                <header class="d-flex align-items-center gap-4 mb-4">
                   <img
                     src="./images/image-patrick.jpg"
                     alt="Patrick Abrams"
                     class="avatar-size avatar-border border-purple-500 rounded-circle"
                   />
-                  <div class="reviewer">
+                  <span class="reviewer">
                     <h3 class="mb-1">Patrick Abrams</h3>
                     <h4>Verified Graduate</h4>
-                  </div>
-                </div>
+                  </span>
+                </header>
                 <h2 class="testimonial-heading mb-4">
                   Awesome teaching support from TAs who did the bootcamp
                   themselves. Getting guidance from them and learning from their
@@ -144,25 +145,25 @@
                   from an incredible community of xxlart and amazing
                   people.&nbsp;”
                 </p>
-              </div>
+              </article>
             </div>
           </div>
         </div>
 
         <!-- Column for Kira in rightmost box -->
         <div class="col-lg-3 p-3">
-          <div class="p-5 h-100 rounded-3 shadow-lg bg-white">
-            <div class="d-flex align-items-center gap-4 mb-4">
+          <article class="p-5 h-100 rounded-3 shadow-lg bg-white">
+            <header class="d-flex align-items-center gap-4 mb-4">
               <img
                 src="./images/image-kira.jpg"
                 alt="Kira Whittle"
                 class="avatar-size avatar-border border-grey-200 rounded-circle"
               />
-              <div class="reviewer">
+              <span class="reviewer">
                 <h3 class="mb-1">Kira Whittle</h3>
                 <h4>Verified Graduate</h4>
-              </div>
-            </div>
+              </span>
+            </header>
             <h2 class="testimonial-heading mb-4">
               Such a life-changing experience. Highly recommended!
             </h2>
@@ -180,12 +181,12 @@
               certainly helped me land a job as a full-stack developer after
               receiving multiple offers. 100% recommend!&nbsp;”
             </p>
-          </div>
+          </article>
         </div>
       </div>
     </main>
 
-    <footer class="attribution">
+    <footer class="attribution py-3">
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by
