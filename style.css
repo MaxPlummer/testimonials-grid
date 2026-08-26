@@ -69,6 +69,12 @@ img {
   background-color: var(--dark-blue);
   color: var(--white);
 }
+.bg-purple p, .bg-grey p, .bg-blue p {
+  color: var(--grey-100);
+}
+.bg-white p {
+  color: var(--grey-400);
+}
 /* Avatar images */
 .avatar-size {
   width: 36px;
@@ -110,6 +116,12 @@ img {
   }
 }
 @media (min-width: 992px) {
+  /* Add quote bg pattern to first box on larger screens */
+  #quote {
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 20px right 50px;
+  }
   .testimonial-heading {
     font-size: 1.75rem;
   }
